@@ -7,5 +7,4 @@ class User(db.Model):
     password_hash = db.Column(db.String(128))
 
     def __repr__(self):
-        return f'<' \
-               f'User {self.username}>'
+        return f'<User {self.username}>'

@@ -1,0 +1,7 @@
+venv\Scripts\activate - запуск виртуальной среды
+pip install <package name> - установить пакет в проект
+pip list - список пакетов в проекте
+flask run - запуск приложения фласк
+flask db init -инициализация базы данных
+flask db migrate -m "сообщение о внесённых изменениях"
+flask db upgrade / downgrade - обновить базу данных / откатить до предыдущей версии
